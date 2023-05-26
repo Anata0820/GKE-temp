@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: app-deployment
-  namespace: webapp-yello
+  namespace: webapp-yellow
   labels:
     app: nginx-app
 spec:
