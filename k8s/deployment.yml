@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: nginx-app-john
-          image: fadydevops/calculatorwebapp:latest
+          image: fadydevops/myapp:v1
           ports:
             - containerPort: 8080
